@@ -11,6 +11,7 @@ import { AppContentComponent } from './app-content/app-content.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { AppLayoutComponent } from './app-layout/app-layout.component';
+import { EnquiryComponent } from './enquiry/enquiry.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AppLayoutComponent } from './app-layout/app-layout.component';
     AppContentComponent,
     DashboardComponent,
     LoginComponent,
-    AppLayoutComponent
+    AppLayoutComponent,
+    EnquiryComponent
   ],
   imports: [
     BrowserModule,
